@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "d4db8eac-dd12-4f92-b226-c54f4c384a20",
+  "_index": 0,
+  "name": "Beach",
+  "backgroundId": "b138d1fc-1dfc-47f0-8065-30dec693d66d",
+  "tilesetId": "",
+  "width": 58,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00166+014+00a+0f6+0034+0f!004+0f!002e+012+11!013+0f!004+0f!012+002e+10!01!002+0f!004+0f!002a+016+10!01!002+0f!004+0f!006+012+009+0f8+0017+10!01!002+0f!004+0f!0011+0f8+003+0f6+006+018+10!01!002+0f!004+0f!0021+0f!00e+10!01!002+0f!004+0f!0021+0f3+002+0ff+004+0f!014+002+0fc+102+00f+0f!002+0f!0012+0f!006+0f!00a+0f!102+00f+0f!002+0f!0012+0f!006+0f!00a+0f!102+00f+0f!002+0f!0012+0f!006+0f!00a+0f!102+008+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 304,
+  "y": 544,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "ccefe851-fa65-4308-ac0d-168f626dbda9"
+}

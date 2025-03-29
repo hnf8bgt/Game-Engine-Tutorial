@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f9e3ecc0-6acf-4cde-a684-7a262c8d1f65",
+  "name": "beach2",
+  "symbol": "bg_beach",
+  "width": 58,
+  "height": 18,
+  "imageWidth": 464,
+  "imageHeight": 144,
+  "filename": "beach2.png",
+  "tileColors": "",
+  "autoColor": false
+}
