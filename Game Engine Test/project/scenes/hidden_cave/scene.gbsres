@@ -1,0 +1,118 @@
+{
+  "_resourceType": "scene",
+  "id": "ac84044a-5e12-4686-ae96-4e9625ec3d85",
+  "_index": 2,
+  "name": "Hidden Cave",
+  "backgroundId": "d20dc76f-5109-4877-8d08-f78e61a82ee1",
+  "tilesetId": "",
+  "width": 32,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f5+10!0fe+00d+0f4+10!0ff+005+0f4+003+0f!003+10!00d+0f2+008+0f2+002+0f!003+10!008+10!004+0f2+002+0f6+00!0f!002+0f!003+10!008+10!004+0f2+002+0f!004+0f3+002+0fd+10!0f9+005+0f2+002+0fd+10!0f8+007+0f!002+0f2+00b+10!006+0f2+007+0f!003+0f!00b+10!006+0f2+007+0f!003+0f!00b+10!004+10!00!0f2+007+0f!002+0f2+00b+10!004+10!00!0f2+007+0f2+00!0f5+012+0fb+10!0f3+007+0f!002+0f5+012+0fb+10!0f2+008+0f!002+0f!0011+10!00a+0f!002+0f!0011+10!008+01!00!0f!002+0f!0011+10!00a+0f!002+0f1e+0021+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 848,
+  "y": 408,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "f0409cd6-82e4-45e6-bf38-01a7e7858f47"
+      },
+      "id": "ca04b3b5-5457-486e-8eff-401c55bf345d"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "2e4b339c-8a2b-4270-bf02-b05865a382aa"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "552709c0-f07c-4aa7-98b0-ad6211b47b40"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "9bc02894-cd8d-4415-aa9c-86a02030c5c8"
+            },
+            "id": "069de912-679b-45ec-8943-2461d186ed0e"
+          }
+        ],
+        "false": []
+      },
+      "id": "5d15c90b-d0e9-46ba-bbc4-564793ce1095"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Now I will feast \nupon your blood!!!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d64866be-30cd-48c3-8cce-6cc5246cd937"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "b3559c94-1f81-4638-8103-1828a01538bc",
+        "x": {
+          "type": "number",
+          "value": 6
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "36f4d86b-ce59-438b-98ed-4e07700efa0a"
+    }
+  ],
+  "playerSpriteSheetId": "90706bbc-66bf-4b23-b215-bc699f5e67de"
+}
