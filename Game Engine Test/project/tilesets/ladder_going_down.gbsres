@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "943126ac-1080-4661-a41e-e99a7105e049",
+  "name": "ladder going down",
+  "symbol": "tileset_ladder_going_down",
+  "width": 2,
+  "height": 4,
+  "imageWidth": 18,
+  "imageHeight": 32,
+  "filename": "ladder going down.png"
+}

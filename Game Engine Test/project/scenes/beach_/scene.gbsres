@@ -1,0 +1,31 @@
+{
+  "_resourceType": "scene",
+  "id": "b3559c94-1f81-4638-8103-1828a01538bc",
+  "_index": 0,
+  "name": "Beach ",
+  "backgroundId": "9ea741d9-f280-43ba-bddd-926bb982a1c9",
+  "tilesetId": "",
+  "width": 58,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "002+0f!00a+0f!0020+0f!00d+0f!004+0f7+0020+0fb+003+0f!004+0f!0030+0f!003+0f!004+0f!0030+0f!003+0f!004+0f!0030+0f!003+0f6+0030+0f!00b+014+00a+0f6+001a+0f!0019+0f2+003+0f!001a+0f!0013+01!30!112+20!01!0f2+003+0f!012+0018+0f!0015+102+002+0f2+003+0f!001a+0f!00f+016+102+002+0f!004+0f!006+012+009+0f8+00!0f2+0014+102+002+0f!004+0f!0011+0f8+00!0f8+006+018+102+002+0f!004+0f!001a+0f2+005+0f!00e+102+002+0f!004+0f!001a+0f2+005+0f3+002+0ff+004+0f!014+002+0fc+102+006+0f2+007+0f!002+0f2+0011+0f!006+0f!006+0f5+102+006+0f2+007+0f!002+0f2+0011+0f!006+0f!00a+0f!102+006+0f2+007+0f!002+0f2+0011+0f!006+0f!00a+0f!102+006+0f2+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 125,
+  "y": 73,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "aa952fc7-d6d6-4252-9c84-6497d1960007"
+      },
+      "id": "70f2cb04-9238-41c5-8f09-d5c686f2bed8"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "90706bbc-66bf-4b23-b215-bc699f5e67de"
+}

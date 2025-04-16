@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "70b6fcd6-0d37-4dcf-b964-b1771ffcef32",
+  "_index": 3,
+  "name": "Start and End Scene",
+  "backgroundId": "092daf8c-3499-468c-bcc4-02cbd280527c",
+  "tilesetId": "",
+  "width": 20,
+  "height": 20,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00!0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f2+00!0f!0010+0f4+0010+0f4+0010+0f4+0010+0f2+00!0f13+003+0f9+0058+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 872.9894942035505,
+  "y": 30,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "90706bbc-66bf-4b23-b215-bc699f5e67de"
+}

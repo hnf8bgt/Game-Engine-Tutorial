@@ -1,0 +1,105 @@
+{
+  "_resourceType": "actor",
+  "id": "d0f39922-10cc-4880-97eb-907539c31dbf",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b4de63c2-2f97-4efc-9e39-5bfc63e0e2f5",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_3",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "70b6fcd6-0d37-4dcf-b964-b1771ffcef32",
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "527981e0-aff2-4248-b6b3-e317b9436770"
+          }
+        ],
+        "false": []
+      },
+      "id": "47fbef91-2ffa-40ec-864f-bad361805ea0"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "132eecca-a130-4a74-848d-a73728d9729d"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "688550df-908a-4d34-acbf-5fd646466e94"
+          }
+        ],
+        "false": []
+      },
+      "id": "0e5cc343-e749-4518-a797-df86be57a2f3"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 49,
+  "y": 9,
+  "_index": 1
+}

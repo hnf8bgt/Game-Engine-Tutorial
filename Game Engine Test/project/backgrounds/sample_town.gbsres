@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "7fc5b678-57bb-4bd2-ae6f-cae57a3d042a",
+  "name": "sample_town",
+  "symbol": "bg_sample_town",
+  "width": 56,
+  "height": 56,
+  "imageWidth": 448,
+  "imageHeight": 448,
+  "filename": "sample_town.png",
+  "tileColors": ""
+}
